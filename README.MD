@@ -30,9 +30,26 @@ This file contains information regarding the following DevOps tools:
  (C) SSH agents:
              (1)Open a SSH connection to the specified host as the specified username,
              (2)Check the default version of Java for that user,
-             (3)[not implemented yet] If the default version is not compatible with Jenkins's 
+             (3) If the default version is not compatible with Jenkins's 
                 agent.jar, try to find a proper version of Java
              (4)Once it has a suitable version of Java, copy the latest agent.jar via SFTP (falling 
-                back to scp if SFTP is not available),
-                Start the agent process..
+                back to scp if SFTP is not available),Start the agent process
+2.DOCKER:
+        (1).Docker is containerization tool that isolates applications and its bins/libs
+        (2).Docker is lightweight, It will not have guest operating system
+        (3).Docker start/stop time is fast its about 1-2 seconds
+        (4).Faster for deployments
+        (5).Reduces overall infrastructure and cost(for licenses)
+###Dockerizing applications:
+        (1)To run our application on docker container we should dockerize it
+3.Kubernetes:
+            Kubernetes is a container orchestration tool 
+          (1)Kubernetes offers features like:
+                                             (1)Scheduling
+                                             (2)Autohealing
+                                             (3)Load Balancing
+                                             (4)Automated deployments
+                                             (5)Autoscaling
+
+
  
