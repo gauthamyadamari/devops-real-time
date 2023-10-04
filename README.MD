@@ -47,9 +47,48 @@ This file contains information regarding the following DevOps tools:
           (1)Kubernetes offers features like:
                                              (1)Scheduling
                                              (2)Autohealing
-                                             (3)Load Balancing
+                                             (3)Load Balancing:
                                              (4)Automated deployments
                                              (5)Autoscaling
+EKS Cluster:
+           (1)In the cluster you will have two categories one is master node and another one is worker nodes
+(2)First create EKS cluster (This will setup only k8s Control Plane)
+(3)Setup one or more node group
+
+
+4.MongoDB:
+MongoDB is a NoSQL database that uses a document data model. This means that data is stored in JSON-like documents, which are flexible and can be easily scaled. MongoDB is popular for its scalability, performance, and ease of use.
+
+ some of the key features of MongoDB:
+
+(1)Document data model: MongoDB stores data in flexible documents, which can be easily scaled and 
+   updated.
+(2)Horizontal scalability: MongoDB can be scaled horizontally by adding more servers to the 
+   cluster.
+(3)High performance: MongoDB is designed for high performance, even with large datasets.
+(4)Ease of use: MongoDB is easy to install and use, even for developers with no prior NoSQL 
+   experience.
+
+MongoDB is a good choice for applications that need to be scalable, performant, and easy to use. It is a popular choice for web applications, mobile applications, and real-time applications  
+
+some examples of how MongoDB can be used:
+
+E-commerce applications: MongoDB can be used to store product information, customer data, and order data.
+Social media applications: MongoDB can be used to store user data, posts, and comments.
+Real-time analytics applications: MongoDB can be used to store and analyze real-time data, such as sensor data or financial market data.
+
+5.ReactJS:
+ReactJS is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. ReactJS lets you compose complex UIs from small and isolated pieces of code called "components".
+some of the key benefits of using ReactJS:
+
+(1)Declarative: ReactJS is declarative, meaning that you describe what you want to render, and 
+   ReactJS takes care of the rest. This makes ReactJS code easy to read and maintain.
+(2)Efficient: ReactJS is efficient because it uses a virtual DOM to update the UI. The virtual DOM 
+   is a lightweight representation of the real DOM, which allows ReactJS to perform updates quickly 
+   and efficiently.
+(3)Flexible: ReactJS is flexible because it can be used to build a wide variety of UIs, from simple 
+   static websites to complex dynamic web applications.
+
 
 
  
