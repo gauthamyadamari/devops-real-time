@@ -89,6 +89,20 @@ some of the key benefits of using ReactJS:
 (3)Flexible: ReactJS is flexible because it can be used to build a wide variety of UIs, from simple 
    static websites to complex dynamic web applications.
 
+6.Flask:
+        Flask is a microframework, which means that it does not come with a lot of built-in 
+        functionality. This makes it very lightweight and easy to learn, but it also means that you 
+        will need to use third-party libraries to add common features such as database abstraction, 
+        form validation, and user authentication.
 
+some of the key features of Flask:
+
+       (1)Flexible: Flask can be used to develop a wide variety of web applications, from simple 
+          websites to complex web applications.
+       (2) Easy to use: Flask has a simple and intuitive API, making it easy to learn and use.
+       (3)Lightweight: Flask is a microframework, which means that it is very lightweight and 
+          efficient.
+       (4)Extensible: Flask has a large and active community that develops high-quality extensions 
+          that can add any functionality you need to your application.
 
  
