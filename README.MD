@@ -105,4 +105,13 @@ some of the key features of Flask:
        (4)Extensible: Flask has a large and active community that develops high-quality extensions 
           that can add any functionality you need to your application.
 
+
+
+CREATION OF EKS-CLUSTER
+
+PREREQUISTES:
+            1. Install AWS CLI
+            2. Install kubectl
+            3.install eksctl
+
  
