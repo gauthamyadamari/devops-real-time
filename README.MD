@@ -142,7 +142,7 @@ command for the creatiion of eks cluster:(1) eksctl create cluster -f  <file-nam
 command for the  deletion of eks cluster:(1) eksctl delete cluster --name <cluster-name>
 
 
-B.Creating pod.yml file :
+B.Creating [pod.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/pod.yml) file :
 
  apiVersion: v1
 kind: Pod
