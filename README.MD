@@ -110,8 +110,48 @@ some of the key features of Flask:
 CREATION OF EKS-CLUSTER
 
 PREREQUISTES:
-            1. Install AWS CLI
-            2. Install kubectl
-            3.install eksctl
+            1. AWS Account
+            2. Install AWS CLI
+            3. Install kubectl
+            4.install eksctl
 
- 
+A. writing eksctl.yml file for creating eks cluster and the file is as follows:
+
+ file: eksctl.yml
+
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: basic-cluster-1
+  region: us-east-1
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m5.large
+    desiredCapacity: 2
+  - name: ng-2
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+
+command for the creatiion of eks cluster:(1) eksctl create cluster -f  <file-name>
+                                         (2) eksctl create cluster -f cluster.yaml
+
+command for the  deletion of eks cluster:(1) eksctl delete cluster --name <cluster-name>
+
+
+B.Creating pod.yml file :
+
+ apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+
+command for the creation of pod.yml file : (1)kubectl apply -f <file-name>
+                                           (2) kubectl apply -f pod.yml
