@@ -119,7 +119,7 @@ PREREQUISTES:
 
 A. writing [eksctl.yml]  (https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file for creating eks cluster and the file is as follows:
 
- file: eksctl.yml
+ 
 
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
