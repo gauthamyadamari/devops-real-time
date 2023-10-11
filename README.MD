@@ -157,3 +157,5 @@ spec:
 
 command for the creation of pod.yml file : (1)kubectl apply -f <file-name>
                                            (2) kubectl apply -f pod.yml
+
+C. creating [mongodb.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/mongodb.yml)
