@@ -19,7 +19,8 @@
     (e)invoked by other builds
 ```
 
-* Plugins: Plugins have been released for Jenkins that extend its use to projects written in languages other than Java. Plugins are available for integrating Jenkins with most version control systems and bug databases
+* Plugins: Plugins have been released for Jenkins that extend its use to projects written in languages other than 
+  Java. Plugins are available for integrating Jenkins with most version control systems and bug databases
  --some of the plugins are as follows:
  - (A) Mailer:
             Allows configuring email notifications for build results. Jenkins will send emails 
@@ -56,8 +57,8 @@
         (1)To run our application on docker container we should dockerize it
 * **3.Kubernetes**:
 
-            Kubernetes is a container orchestration tool 
-          (1)Kubernetes offers features like:
+           Kubernetes is a container orchestration tool 
+          (1)Kubernetes offers features like :
 ```
                                              (1)Scheduling
                                              (2)Autohealing
@@ -134,7 +135,7 @@ some of the key benefits of using ReactJS:
             1. AWS Account
             2. Install AWS CLI
             3. Install kubectl
-            4.install eksctl
+            4. Install eksctl
 ```
 
 A. Creating [eksctl.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
@@ -171,7 +172,7 @@ command for the  deletion of eks cluster:
 
 B.Creating [pod.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/pod.yml) file :
 ```
- apiVersion: v1
+apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
@@ -180,7 +181,7 @@ spec:
   - name: nginx
     image: nginx:1.14.2
     ports:
-    - containerPort: 80
+  - containerPort: 80
 ```
 command for the creation of pod.yml file :
 ```
