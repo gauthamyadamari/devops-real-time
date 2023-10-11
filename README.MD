@@ -137,7 +137,7 @@ some of the key benefits of using ReactJS:
             4.install eksctl
 ```
 
-A. creating [eksctl.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
+A. Creating [eksctl.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
 
 ``` 
 
@@ -157,10 +157,16 @@ nodeGroups:
     desiredCapacity: 2
 ```
 
-command for the creatiion of eks cluster:(1) eksctl create cluster -f  <file-name>
-                                         (2) eksctl create cluster -f cluster.yaml
+command for the creatiion of eks cluster:
+```
+     (1) eksctl create cluster -f  <file-name>
+     (2) eksctl create cluster -f cluster.yaml
+```
 
-command for the  deletion of eks cluster:(1) eksctl delete cluster --name <cluster-name>
+command for the  deletion of eks cluster:
+```
+(1) eksctl delete cluster --name <cluster-name>
+```
 
 
 B.Creating [pod.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/pod.yml) file :
@@ -176,7 +182,10 @@ spec:
     ports:
     - containerPort: 80
 ```
-command for the creation of pod.yml file : (1)kubectl apply -f <file-name>
-                                           (2) kubectl apply -f pod.yml
+command for the creation of pod.yml file :
+```
+               (1)kubectl apply -f <file-name>
+               (2) kubectl apply -f pod.yml
+```
 
-C. creating [mongodb.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/mongodb.yml)
+C. Creating [mongodb.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/mongodb.yml)
