@@ -117,7 +117,7 @@ PREREQUISTES:
             3. Install kubectl
             4.install eksctl
 
-A. creating [eksctl.yml]  (https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
+A. creating [eksctl.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
 
  
 
