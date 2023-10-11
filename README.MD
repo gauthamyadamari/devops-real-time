@@ -19,7 +19,7 @@ Builds: Builds can be triggered by various means, for example:
 
 Plugins: Plugins have been released for Jenkins that extend its use to projects written in languages other than Java. Plugins are available for integrating Jenkins with most version control systems and bug databases
  --some of the plugins are as follows:
- (A) Mailer:
+ - (A) Mailer:
             Allows configuring email notifications for build results. Jenkins will send emails 
             to the specified recipients whenever a certain important event occurs, such as:
 
@@ -27,9 +27,9 @@ Plugins: Plugins have been released for Jenkins that extend its use to projects 
             (2)Unstable build.
             (3)Successful build after a failed build, indicating that a crisis is over.
             (4)Unstable build after a successful one, indicating that there's a regression
- (B) Credentials:
+ * (B) Credentials:
              (1)Allows storing credentials in Jenkins
- (C) SSH agents:
+ + (C) SSH agents:
              (1)Open a SSH connection to the specified host as the specified username,
              (2)Check the default version of Java for that user,
              (3) If the default version is not compatible with Jenkins's 
