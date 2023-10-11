@@ -7,7 +7,7 @@
      5. ReactJS
      6. Flask
 ```
-##1.**Jenkins**: Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase, and RTC, and can execute Apache Ant, Apache Maven, and sbt based projects as well as arbitrary shell scripts and Windows batch commands.
+**1.Jenkins**: Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase, and RTC, and can execute Apache Ant, Apache Maven, and sbt based projects as well as arbitrary shell scripts and Windows batch commands.
 
 - Builds: Builds can be triggered by various means, for example:
 
@@ -42,23 +42,27 @@
         (3).Docker start/stop time is fast its about 1-2 seconds
         (4).Faster for deployments
         (5).Reduces overall infrastructure and cost(for licenses)
-Dockerizing applications:
+* Dockerizing applications:
         (1)To run our application on docker container we should dockerize it
-* 3.Kubernetes:
+* **3.Kubernetes**:
+
             Kubernetes is a container orchestration tool 
           (1)Kubernetes offers features like:
+```
                                              (1)Scheduling
                                              (2)Autohealing
                                              (3)Load Balancing:
                                              (4)Automated deployments
                                              (5)Autoscaling
-EKS Cluster:
+```
+
++ EKS Cluster:
            (1)In the cluster you will have two categories one is master node and another one is worker nodes
 (2)First create EKS cluster (This will setup only k8s Control Plane)
 (3)Setup one or more node group
 
 
-+ 4.MongoDB:
++ **4.MongoDB**:
 MongoDB is a NoSQL database that uses a document data model. This means that data is stored in JSON-like documents, which are flexible and can be easily scaled. MongoDB is popular for its scalability, performance, and ease of use.
 
  some of the key features of MongoDB:
@@ -79,7 +83,7 @@ E-commerce applications: MongoDB can be used to store product information, custo
 Social media applications: MongoDB can be used to store user data, posts, and comments.
 Real-time analytics applications: MongoDB can be used to store and analyze real-time data, such as sensor data or financial market data.
 
-5.ReactJS:
+**5.ReactJS**:
 ReactJS is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. ReactJS lets you compose complex UIs from small and isolated pieces of code called "components".
 some of the key benefits of using ReactJS:
 
@@ -91,31 +95,33 @@ some of the key benefits of using ReactJS:
 (3)Flexible: ReactJS is flexible because it can be used to build a wide variety of UIs, from simple 
    static websites to complex dynamic web applications.
 
-6.Flask:
+**6.Flask**:
         Flask is a microframework, which means that it does not come with a lot of built-in 
         functionality. This makes it very lightweight and easy to learn, but it also means that you 
         will need to use third-party libraries to add common features such as database abstraction, 
         form validation, and user authentication.
 
-some of the key features of Flask:
+* some of the key features of Flask:
 
-       (1)Flexible: Flask can be used to develop a wide variety of web applications, from simple 
+       - (1)Flexible: Flask can be used to develop a wide variety of web applications, from simple 
           websites to complex web applications.
-       (2) Easy to use: Flask has a simple and intuitive API, making it easy to learn and use.
-       (3)Lightweight: Flask is a microframework, which means that it is very lightweight and 
+       * (2) Easy to use: Flask has a simple and intuitive API, making it easy to learn and use.
+       + (3)Lightweight: Flask is a microframework, which means that it is very lightweight and 
           efficient.
-       (4)Extensible: Flask has a large and active community that develops high-quality extensions 
+       - (4)Extensible: Flask has a large and active community that develops high-quality extensions 
           that can add any functionality you need to your application.
 
 
 
-CREATION OF EKS-CLUSTER
+**CREATION OF EKS-CLUSTER**
 
-PREREQUISTES:
+**PREREQUISTES**:
+```
             1. AWS Account
             2. Install AWS CLI
             3. Install kubectl
             4.install eksctl
+```
 
 A. creating [eksctl.yml](https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
 
