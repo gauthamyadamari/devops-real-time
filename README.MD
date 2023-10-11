@@ -68,7 +68,7 @@
 
 + EKS Cluster:
 ```
-           (1)In the cluster you will have two categories one is master node and another one is worker nodes
+(1)In the cluster you will have two categories one is master node and another one is worker nodes
 (2)First create EKS cluster (This will setup only k8s Control Plane)
 (3)Setup one or more node group
 ```
@@ -117,12 +117,12 @@ some of the key benefits of using ReactJS:
 
 * some of the key features of Flask:
 ```
-       - (1)Flexible: Flask can be used to develop a wide variety of web applications, from simple 
+        (1)Flexible: Flask can be used to develop a wide variety of web applications, from simple 
           websites to complex web applications.
-       * (2) Easy to use: Flask has a simple and intuitive API, making it easy to learn and use.
-       + (3)Lightweight: Flask is a microframework, which means that it is very lightweight and 
+        (2) Easy to use: Flask has a simple and intuitive API, making it easy to learn and use.
+        (3)Lightweight: Flask is a microframework, which means that it is very lightweight and 
           efficient.
-       - (4)Extensible: Flask has a large and active community that develops high-quality extensions 
+        (4)Extensible: Flask has a large and active community that develops high-quality extensions 
           that can add any functionality you need to your application.
 
 ```
