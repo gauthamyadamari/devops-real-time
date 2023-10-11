@@ -36,7 +36,7 @@ Plugins: Plugins have been released for Jenkins that extend its use to projects 
                 agent.jar, try to find a proper version of Java
              (4)Once it has a suitable version of Java, copy the latest agent.jar via SFTP (falling 
                 back to scp if SFTP is not available),Start the agent process
-2.DOCKER:
+- 2.DOCKER:
         (1).Docker is containerization tool that isolates applications and its bins/libs
         (2).Docker is lightweight, It will not have guest operating system
         (3).Docker start/stop time is fast its about 1-2 seconds
@@ -44,7 +44,7 @@ Plugins: Plugins have been released for Jenkins that extend its use to projects 
         (5).Reduces overall infrastructure and cost(for licenses)
 Dockerizing applications:
         (1)To run our application on docker container we should dockerize it
-3.Kubernetes:
+* 3.Kubernetes:
             Kubernetes is a container orchestration tool 
           (1)Kubernetes offers features like:
                                              (1)Scheduling
@@ -58,7 +58,7 @@ EKS Cluster:
 (3)Setup one or more node group
 
 
-4.MongoDB:
++ 4.MongoDB:
 MongoDB is a NoSQL database that uses a document data model. This means that data is stored in JSON-like documents, which are flexible and can be easily scaled. MongoDB is popular for its scalability, performance, and ease of use.
 
  some of the key features of MongoDB:
