@@ -117,7 +117,7 @@ PREREQUISTES:
             3. Install kubectl
             4.install eksctl
 
-A. writing [eksctl.yml]  (https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file for creating eks cluster and the file is as follows:
+A. writing [eksctl.yml]  (https://raw.githubusercontent.com/gauthamyadamari/devops-real-time/main/eksctl.yml) file 
 
  
 
