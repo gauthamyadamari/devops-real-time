@@ -1,20 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mongodb
+  name: mongo
 spec:
+  replicas: 1
   selector:
     matchLabels:
-      app: mongodb
+      app: mongo
   template:
     metadata:
       labels:
-        app: mongodb
+        app: mongo
     spec:
       containers:
-      - name: mongodb
-        image: mongo
+      - name: mongo
+        image: minikube/mongo:latest
         ports:
-        - name: mongodbport
-          containerPort: 27017
-          protocol: TCP
+        - containerPort: 27017
